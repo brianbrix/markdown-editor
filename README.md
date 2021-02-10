@@ -356,3 +356,4 @@ Checkout at http://127.0.0.1:8000/simple-form/ on your browser.
 [15]: https://github.com/adi-/django-markdownx
 [16]: https://github.com/waylan/Python-Markdown
 [17]: http://rst.ninjs.org
+# markdown-editor
