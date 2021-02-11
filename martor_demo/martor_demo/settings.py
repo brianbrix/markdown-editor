@@ -26,7 +26,7 @@ SECRET_KEY = '+1zhx_fpkkyj&z+3n!63fx0)og)@h5^7qyr8e0s%c@p8_&t&+l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['206.72.201.77']
 
 # Martor Configuration
 MARTOR_THEME = 'bootstrap'  # semantic
@@ -96,9 +96,12 @@ WSGI_APPLICATION = 'martor_demo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'ENGINE': 'django.db.backends.mysql',
+       'NAME':'mpesa_gate',
+'USER':'uptechpayer',
+'PASSWORD': 'ngojakiasi',
+'HOST': '127.0.0.1',
+'PORT': '3306',    }
 }
 
 
